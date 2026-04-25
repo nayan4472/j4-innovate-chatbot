@@ -1,21 +1,78 @@
-<<<<<<< HEAD
-# j4-innovate-chatbot
-AI-powered chatbot for lead generation, multilingual support, and meeting scheduling with admin dashboard.
-=======
-# React + Vite
+# 🤖 J4_Innovate Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered chatbot for lead generation, multilingual conversations, and meeting scheduling with an admin dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 💬 Smart AI Chatbot
+- Supports English, Hindi, and Gujarati
+- Answers general questions using Google Gemini API
+- Natural and intelligent conversation flow
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 📈 Lead Generation System
+- Service selection (1, 2, 3 options)
+- Step-by-step user guidance
+- Collects:
+  - Full Name
+  - Business Name
+  - WhatsApp Number / Email
+- Shows final summary
+- Automatically stores data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 8c58e42 (Final Commit)
+---
+
+### 📅 Meeting Scheduler
+- Users can book meetings directly
+- Select day (Monday to Friday)
+- Choose preferred time
+- Enter contact details
+
+---
+
+### 🔐 Admin Panel (Hidden)
+- Access URL: `/admin`  
+  Example: `http://localhost:5173/admin`
+
+- **Password:** `123456`
+
+#### Admin Features:
+- View all leads in table format
+- See timestamp of each entry
+- Manage data easily
+- Clear all data option
+
+---
+
+## 🧠 System Logic
+
+- **Storage:** Uses browser `localStorage` (data persists after refresh)
+- **API:** Google Gemini AI for real-time responses
+- **Flow:** Fully automated user interaction & data collection
+
+---
+
+## 🛠️ Tech Stack
+
+- React + Vite
+- JavaScript
+- Google Gemini API
+- LocalStorage
+
+---
+
+## 📌 How to Run
+
+```bash
+npm install
+npm run dev
+
+---
+
+## 👨‍💻 Developed By
+
+- Nayan Pitroda  
+- Full Stack Developer (MERN)
